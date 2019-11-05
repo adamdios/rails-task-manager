@@ -9,7 +9,9 @@
   <% end %>
 
   <%= link_to task.title, task_path(task.id) %>
-
+  <%= link_to task_path(task.id), method: :delete, data: { confirm: "Are you sure you delete #{task.title}?" } do %>
+        <%= "    -- Delete --" %>
+      <% end %>
   </p>
   <% end %>
 

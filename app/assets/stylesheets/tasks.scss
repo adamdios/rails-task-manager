@@ -1,6 +1,8 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap/scss/bootstrap";
+
 .task-details {
   background-color: #F7F4F3;
   border: 1px solid #DCDBD6;
